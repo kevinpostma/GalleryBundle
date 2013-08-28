@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+                               http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="kp.model.gallery.class">Kp\Bundle\GalleryBundle\Entity\gallery</parameter>
+
+        <parameter key="kp.repository.gallery.class">Kp\Bundle\GalleryBundle\Repository\galleryRepository</parameter>
+    </parameters>
+
+    <services>
+        <service id="kp.manager.gallery" alias="doctrine.orm.entity_manager" />
+        <service id="kp.repository.gallery" class="%kp.repository.gallery.class%">
+            <argument type="service" id="kp.manager.gallery" />
+            <argument type="service">
+                <service
+                    factory-service="kp.manager.gallery"
+                    factory-method="getClassMetadata"
+                    class="Doctrine\ORM\Mapping\ClassMetadata"
+                >
+                    <argument>%kp.model.gallery.class%</argument>
+                </service>
+            </argument>
+        </service>
+    </services>
+</container>

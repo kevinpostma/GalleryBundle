@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="f56ac5035833ae0e32df507bb975b394" resname="kp.backend.gallery.new_gallery">
+        <source>kp.backend.gallery.new_gallery</source>
+        <target>new gallery</target>
+      </trans-unit>
+      <trans-unit id="c896dcaa8ddd508ae868cf776f60de51" resname="kp.backend.gallery.edit_gallery">
+        <source>kp.backend.gallery.edit_gallery</source>
+        <target>edit gallery</target>
+      </trans-unit>
+      <trans-unit id="d3c22c1d4d5ea6e068340be176f33167" resname="kp.backend.gallery.delete_gallery">
+        <source>kp.backend.gallery.delete_gallery</source>
+        <target>delete gallery</target>
+      </trans-unit>
+      
+      <trans-unit id="16b71975124e2b0e8bd8c834a37f2c07" resname="kp.gallery.title">
+        <source>kp.gallery.title</source>
+        <target>gallery title</target>
+      </trans-unit>
+      <trans-unit id="2965ed1f2074391b8b9b793d48eaf24e" resname="kp.gallery.gallery">
+        <source>kp.gallery.gallery</source>
+        <target>gallery</target>
+      </trans-unit>
+      <trans-unit id="c9189600fa88b2b41e21a6c86c752f8b" resname="kp.gallery.category">
+        <source>kp.gallery.category</source>
+        <target>gallery category</target>
+      </trans-unit>
+      <trans-unit id="4eef593219e8606f186f940e67e2e0bd" resname="kp.gallery.createdat">
+        <source>kp.gallery.createdat</source>
+        <target>gallery created at</target>
+      </trans-unit>
+      <trans-unit id="b23aa2ba64f754c4d8418e6a5c2420e7" resname="kp.gallery.updatedat">
+        <source>kp.gallery.updatedat</source>
+        <target>gallery updated at</target>
+      </trans-unit>
+      <trans-unit id="1ad74715bdd7ceabe3e6fd68f98defba" resname="kp.gallery.active">
+        <source>kp.gallery.active</source>
+        <target>gallery active</target>
+      </trans-unit>
+      <trans-unit id="f075e76c794b72c9658062fe42696d11" resname="kp.gallery.tags">
+        <source>kp.gallery.tags</source>
+        <target>gallery tags</target>
+      </trans-unit>
+      <trans-unit id="51934cd61f49ef2fb36866300f9d5268" resname="kp.gallery.options">
+        <source>kp.gallery.options</source>
+        <target>gallery options</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
